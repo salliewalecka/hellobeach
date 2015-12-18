@@ -49,9 +49,18 @@ body {
 
 .beach-goer{
   display:inline-block;
-  height: 150px;
+  height: 15px;
   width: 125px;
   margin: 10px;
+}
+
+.mini-profile{
+   margin-top:5px;
+   background-color: rgba(112,138,144,.9);
+   color: rgb(240,255,255);
+   border-radius: 6px;
+   letter-spacing: .2em;
+
 }
 
 .crop{
@@ -68,14 +77,13 @@ body {
 
 #feature-box{
   width:400px;
-  height:400px;
-  margin-right:20px;
+  margin:0 20px 0 10px;
   border-radius: 6px;
   position: fixed;
   bottom: 40px;
   right:0;
   background-color: rgba(112,138,144,.9);
-  padding: 0 2em 0 2em;
+  padding: 0 2em 2em 2em;
   color: rgb(240,255,255);
   letter-spacing: .2em;
 }
