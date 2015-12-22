@@ -19,7 +19,8 @@
     <!-- endbuild -->
     
     <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <script src="../bower_components/jquery/src/jquery.js"></script>
     <!-- endbuild -->
   </head>
   <body>
@@ -38,78 +39,23 @@
         </div>
       </div>
  
-    <div id="beach-area">
-      <div class="beach-goer">
-          <div class="crop">
-            <img src="/images/shea.jpeg" alt="shea"/>
+      <div id="beach-area">
+
+        <div id="feature-box">
+          <h3></h3>
+          <div class="beach-goer">
+            <div class="crop">
+              <img src="" alt=""/>
+            </div>
           </div>
-          <div class="mini-profile">
-          Shea<br>
-          Dev
-          </div>
-      </div>
-      <div class="beach-goer">
-          <div class="crop">
-            <img src="/images/lauren.jpeg" alt="shea"/>
-          </div>
-          <div class="mini-profile">
-          Lauren<br>
-          Dev
-          </div>
-      </div>
-      <div class="beach-goer">
-          <div class="crop">
-            <img src="/images/sallie.png" alt="shea"/>
-          </div>
-          <div class="mini-profile">
-          Sallie<br>
-          Dev
-          </div>
-      </div>
-      <div class="beach-goer">
-          <div class="crop">
-            <img src="/images/lauren.jpeg" alt="shea"/>
-          </div>
-          <div class="mini-profile">
-          Lauren<br>
-          Dev
-          </div>
-      </div>
-     <div class="beach-goer">
-          <div class="crop">
-            <img src="/images/sallie.png" alt="shea"/>
-          </div>
-          <div class="mini-profile">
-          Sallie<br>
-          Dev
-          </div>
-      </div>
-        <div class="beach-goer">
-          <div class="crop">
-            <img src="/images/shea.jpeg" alt="shea"/>
-          </div>
-          <div class="mini-profile">
-          Shea<br>
-          Dev
-          </div>
-      </div>
-      <div id="feature-box">
-        <h3>Meet Shea</h3>
-         <div class="beach-goer">
-          <div class="crop">
-            <img src="/images/shea.jpeg" alt="shea"/>
+          <div id="featured-description">
+            <h4>Likes:</h4> 
+            <p class="beachGoerLikes"></p>
+            <h4>Let's Pair On:</h4> 
+            <p class="beachGoerPairOn"></p>
           </div>
         </div>
-        <div id="featured-description">
-          <h4>Likes:</h4> Bouldering, Vietnamese Coffee, Sallie and Lauren, Goat-herding
-          <br>
-          <br>
-          <h4>Let's Pair On:</h4> Clojure, Dev Ops, Functional Programing
-        </div>
       </div>
-      </div>
-      </div>
-    </div>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
@@ -134,6 +80,7 @@
     
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <script src="scripts/beachGoers.js"></script>
     <!-- endbuild -->
   </body>
 </html>
